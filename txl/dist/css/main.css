@@ -162,3 +162,8 @@ ul li {
 .laoshi li {
     list-style-type: none;
 }
+
+.biaoge {
+    height: 20em;
+    font-size: 24px;
+}
