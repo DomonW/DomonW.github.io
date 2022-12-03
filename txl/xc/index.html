@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+   <meta charset="UTF-8">
+   <title>相册</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <div id="side-menu" class="fas fa-bars"></div>
+
+   <div class="side-bar">
+      <h1 class="heading">相册</h1>
+      <div class="box">
+         <h3 class="title">查找照片:</h3>
+         <input type="text" placeholder="查找......" id="search-box">
+      </div>
+      <div class="box">
+         <h3 class="title">分类 :</h3>
+         <div class="category">
+            <div class="btn active" data-category="all"> 全部 </div>
+            <div class="btn" data-category="hezhao">合照</div>
+            <div class="btn" data-category="laoshi">老师</div>
+            <div class="btn" data-category="fish">鱼</div>
+            <div class="btn" data-category="flower">花朵</div>
+         </div>
+      </div>
+      <div class="box">
+         <h3 class="title">type :</h3>
+         <div class="type">
+            <div class="btn active" data-type="all">all type</div>
+            <div class="btn" data-type="jpg">jpg</div>
+            <div class="btn" data-type="png">png</div>
+            <div class="btn" data-type="svg">svg</div>
+         </div>
+      </div>
+      <div class="reset-btn">
+         <div class="btn">重置</div>
+      </div>
+   </div>
+
+   <div class="gallery">
+
+      <h1 class="heading">高中生活相册</h1>
+
+      <div class="image-container">
+         <img src="images/img-1.png" data-cat="hezhao" data-search="px ykx cj lk lsjq zhp xjs zll" alt="">
+         <img src="images/img-13.png" data-cat="hezhao" data-search="lk zhp px zll ykx lsjq xjs cj" alt="">
+         <img src="images/img-2.png" data-cat="" data-search=" 运动会" alt="">
+         <img src="images/img-3.png" data-cat="hezhao" data-search="ykx lk cj" alt="">
+         <img src="images/img-4.png" data-cat="hezhao" data-search="zzy px zll zhp" alt="">
+         <img src="images/img-5.png" data-cat="hezhao" data-search="zhp ykx" alt="">
+         <img src="images/img-6.png" data-cat="hezhao" data-search="ykx lsjq" alt="">
+         <img src="images/img-7.png" data-cat="hezhao" data-search="干杯" alt="">
+         <img src="images/img-8.png" data-cat="hezhao" data-search="px ykx lsjq zhp zll 寿县" alt="">
+         <img src="images/img-9.png" data-cat="hezhao" data-search="zy cj czq" alt="">
+         <img src="images/img-10.png" data-cat="hezhao" data-search="px xjs ykx" alt="">
+         <img src="images/img-11.png" data-cat="laoshi" data-search="赵龙 语文老师" alt="">
+         <img src="images/img-12.png" data-cat="hezhao" data-search="ykx " alt="">
+         <img src="images/img-14.png" data-cat="hezhao" data-search="px lk cj cx" alt="">
+         <img src="images/img-15.png" data-cat="hezhao" data-search="lsjq ykx" alt="">
+         <img src="images/img-16.png" data-cat="hezhao" data-search="zll zhp zyf" alt="">
+         <img src="images/img-17.png" data-cat="hezhao" data-search="zhp zll ykx lsjq lk" alt="">
+         <img src="images/img-18.png" data-cat="hezhao" data-search="mxl swh ykx" alt="">
+         <img src="images/img-19.png" data-cat="hezhao" data-search="ykx" alt="">
+         <img src="images/img-20.png" data-cat="" data-search="斜眼笑" alt="">
+         <img src="images/img-21.png" data-cat="hezhao" data-search="ykx mxl" alt="">
+         <img src="images/img-22.png" data-cat="hezhao" data-search="ykx zll" alt="">
+         <img src="images/img-23.png" data-cat="laoshi" data-search="物理老师" alt="">
+         <img src="images/img-24.png" data-cat="hezhao" data-search="ykx lk zll hy" alt="">
+         <img src="images/img-25.png" data-cat="hezhao" data-search="升旗 ykx lk hy " alt="">
+         <img src="images/img-26.png" data-cat="laoshi" data-search="龙哥 赵龙 语文老师" alt="">
+         <img src="images/img-27.png" data-cat="hezhao" data-search="lsjq ykx mxl" alt="">
+         <img src="images/img-28.png" data-cat="hezhao" data-search="ykx lk zhp hy hk" alt="">
+         <img src="images/img-29.png" data-cat="laoshi" data-search="政治老师" alt="">
+         <img src="images/img-30.png" data-cat="hezhao" data-search="zll ykx px lsjq zhp 寿县" alt="">
+         <img src="images/img-31.png" data-cat="hezhao" data-search="px zhp ykx xjs lk zll" alt="">
+         <img src="images/img-32.png" data-cat="laoshi" data-search="赵龙 龙哥 语文老师" alt="">
+         <img src="images/img-33.png" data-cat="laoshi" data-search="赵龙 龙哥 语文老师" alt="">
+         <img src="images/img-34.png" data-cat="hezhao" data-search="*" alt="">
+         <img src="images/img-35.png" data-cat="hezhao" data-search="ykx zhp" alt="">
+         <img src="images/img-36.png" data-cat="hezhao" data-search="ykx px" alt="">
+         <img src="images/img-37.png" data-cat="hezhao" data-search="swh ykx mxl zzy" alt="">
+         <img src="images/img-38.png" data-cat="hezhao" data-search="寿县" alt="">
+         <img src="images/img-39.png" data-cat="hezhao" data-search="ykx mxl" alt="">
+         <img src="images/img-40.png" data-cat="hezhao" data-search="运动会" alt="">
+         <img src="images/img-41.png" data-cat="hezhao" data-search="寿县 lsjq ykx lk" alt="">
+         <img src="images/img-42.png" data-cat="hezhao" data-search="ykx mxl" alt="">
+         <img src="images/img-43.png" data-cat="hezhao" data-search="ykx lk" alt="">
+         <img src="images/img-44.png" data-cat="" data-search="*" alt="">
+         <img src="images/" data-cat="" data-search="" alt="">
+         <img src="images/" data-cat="" data-search="" alt="">
+         <img src="images/" data-cat="" data-search="" alt="">
+         <img src="images/" data-cat="" data-search="" alt="">
+         <img src="images/" data-cat="" data-search="" alt="">
+         <img src="images/" data-cat="" data-search="" alt="">
+         <img src="images/" data-cat="" data-search="" alt="">
+      </div>
+
+   </div>
+
+   <div class="image-popup">
+      <img src="" alt="">
+   </div>
+
+
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
