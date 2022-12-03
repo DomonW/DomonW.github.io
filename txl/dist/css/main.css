@@ -51,6 +51,17 @@ body {
     margin-bottom: 50px;
 }
 
+.ykx {
+    background-color: pink;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #b1b4b6,
+        -5px -5px 10px #ffffff2c;
+    /* position: absolute; */
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
 .mza {
     font-size: 80;
     position: absolute;
