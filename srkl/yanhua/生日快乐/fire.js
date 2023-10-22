@@ -12,7 +12,7 @@ var bigbooms = [];
 
 document.getElementById("iframMusic").onload = function () {
   var music = document.getElementById("music");
-  music.src = "./mp3/music.mp3";
+  music.src = "https://domon.top/sds/1.mp3";
   music.oncanplay = function () {
     music.play();
   };
@@ -56,7 +56,7 @@ function animate() {
           y: 200,
         },
         document.querySelectorAll(".shape")[
-          parseInt(getRandom(0, document.querySelectorAll(".shape").length))
+        parseInt(getRandom(0, document.querySelectorAll(".shape").length))
         ]
       );
       bigbooms.push(bigboom);
