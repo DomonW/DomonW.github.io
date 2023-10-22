@@ -1,0 +1,242 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link rel="stylesheet" href="./生日快乐/style.css">
+  <script id="jqbb" src="./生日快乐/jquery.min.js"></script>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      user-select: none;
+      margin: 0;
+    }
+
+    .city {
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+      z-index: 100;
+    }
+
+    .city img {
+      width: 100%;
+    }
+
+    audio {
+      opacity: 0;
+    }
+
+    .shape {
+      z-index: 9999 !important;
+    }
+  </style>
+  <title>蒋学姐生日快乐</title>
+  <!-- 弹窗样式 -->
+  <link href="./生日快乐/modal.css" rel="stylesheet">
+</head>
+
+<body onselectstart="return false">
+  <div class="star comet"></div>
+  <script src="./生日快乐/index.js"></script>
+  <div class="star star--big" style="top:344px;left:1413px;animation-duration:4402ms;animation-delay:150ms;"></div>
+  <div class="star" style="top:43px;left:1477px;animation-duration:4898ms;animation-delay:83ms;"></div>
+  <div class="star" style="top:210px;left:1281px;animation-duration:4762ms;animation-delay:2215ms;"></div>
+  <div class="star" style="top:596px;left:1013px;animation-duration:5662ms;animation-delay:2058ms;"></div>
+  <div class="star" style="top:655px;left:1470px;animation-duration:5120ms;animation-delay:1155ms;"></div>
+  <div class="star" style="top:608px;left:1070px;animation-duration:3080ms;animation-delay:1382ms;"></div>
+  <div class="star" style="top:400px;left:213px;animation-duration:3120ms;animation-delay:237ms;"></div>
+  <div class="star" style="top:149px;left:655px;animation-duration:5089ms;animation-delay:1269ms;"></div>
+  <div class="star" style="top:576px;left:406px;animation-duration:4225ms;animation-delay:1822ms;"></div>
+  <div class="star star--medium" style="top:320px;left:620px;animation-duration:3184ms;animation-delay:509ms;"></div>
+  <div class="star" style="top:70px;left:379px;animation-duration:3132ms;animation-delay:2736ms;"></div>
+  <div class="star" style="top:166px;left:988px;animation-duration:3477ms;animation-delay:1879ms;"></div>
+  <div class="star" style="top:194px;left:448px;animation-duration:3486ms;animation-delay:1067ms;"></div>
+  <div class="star" style="top:417px;left:102px;animation-duration:3271ms;animation-delay:838ms;"></div>
+  <div class="star" style="top:374px;left:566px;animation-duration:5335ms;animation-delay:2547ms;"></div>
+  <div class="star" style="top:387px;left:1099px;animation-duration:5254ms;animation-delay:2242ms;"></div>
+  <div class="star" style="top:142px;left:925px;animation-duration:5497ms;animation-delay:115ms;"></div>
+  <div class="star" style="top:561px;left:42px;animation-duration:5816ms;animation-delay:2603ms;"></div>
+  <div class="star star--medium" style="top:574px;left:3px;animation-duration:5505ms;animation-delay:69ms;"></div>
+  <div class="star" style="top:99px;left:1284px;animation-duration:4378ms;animation-delay:144ms;"></div>
+  <div class="star star--big" style="top:87px;left:1275px;animation-duration:3573ms;animation-delay:2644ms;"></div>
+  <div class="star" style="top:421px;left:1282px;animation-duration:3542ms;animation-delay:693ms;"></div>
+  <div class="star" style="top:662px;left:74px;animation-duration:3894ms;animation-delay:1102ms;"></div>
+  <div class="star" style="top:775px;left:155px;animation-duration:3507ms;animation-delay:571ms;"></div>
+  <div class="star" style="top:403px;left:1218px;animation-duration:3159ms;animation-delay:2683ms;"></div>
+  <div class="star" style="top:710px;left:384px;animation-duration:4416ms;animation-delay:442ms;"></div>
+  <div class="star" style="top:485px;left:576px;animation-duration:4001ms;animation-delay:2317ms;"></div>
+  <div class="star star--medium" style="top:662px;left:719px;animation-duration:5561ms;animation-delay:2707ms;"></div>
+  <div class="star" style="top:350px;left:245px;animation-duration:4819ms;animation-delay:2431ms;"></div>
+  <div class="star" style="top:632px;left:803px;animation-duration:5667ms;animation-delay:1058ms;"></div>
+  <div class="star" style="top:331px;left:327px;animation-duration:5491ms;animation-delay:1987ms;"></div>
+  <div class="star" style="top:260px;left:1253px;animation-duration:5397ms;animation-delay:2190ms;"></div>
+  <div class="star" style="top:310px;left:586px;animation-duration:5061ms;animation-delay:1571ms;"></div>
+  <div class="star" style="top:698px;left:974px;animation-duration:4109ms;animation-delay:1713ms;"></div>
+  <div class="star" style="top:715px;left:182px;animation-duration:5049ms;animation-delay:2398ms;"></div>
+  <div class="star" style="top:407px;left:297px;animation-duration:5946ms;animation-delay:2508ms;"></div>
+  <div class="star star--medium" style="top:85px;left:1399px;animation-duration:5523ms;animation-delay:2470ms;"></div>
+  <div class="star" style="top:18px;left:423px;animation-duration:5676ms;animation-delay:449ms;"></div>
+  <div class="star" style="top:352px;left:538px;animation-duration:4972ms;animation-delay:916ms;"></div>
+  <div class="star" style="top:117px;left:444px;animation-duration:5895ms;animation-delay:2449ms;"></div>
+  <div class="star star--big" style="top:66px;left:815px;animation-duration:3748ms;animation-delay:1014ms;"></div>
+  <div class="star" style="top:198px;left:1463px;animation-duration:5355ms;animation-delay:2722ms;"></div>
+  <div class="star" style="top:342px;left:424px;animation-duration:5987ms;animation-delay:536ms;"></div>
+  <div class="star" style="top:320px;left:1255px;animation-duration:3503ms;animation-delay:2457ms;"></div>
+  <div class="star" style="top:1px;left:1257px;animation-duration:4464ms;animation-delay:2948ms;"></div>
+  <div class="star star--medium" style="top:698px;left:765px;animation-duration:5610ms;animation-delay:1670ms;"></div>
+  <div class="star" style="top:270px;left:23px;animation-duration:5531ms;animation-delay:1060ms;"></div>
+  <div class="star" style="top:133px;left:1177px;animation-duration:4824ms;animation-delay:1917ms;"></div>
+  <div class="star" style="top:736px;left:233px;animation-duration:5059ms;animation-delay:429ms;"></div>
+  <div class="star" style="top:456px;left:1354px;animation-duration:3542ms;animation-delay:126ms;"></div>
+  <div class="star" style="top:235px;left:967px;animation-duration:5753ms;animation-delay:2120ms;"></div>
+  <div class="star" style="top:485px;left:13px;animation-duration:4928ms;animation-delay:2263ms;"></div>
+  <div class="star" style="top:53px;left:1186px;animation-duration:4816ms;animation-delay:231ms;"></div>
+  <div class="star" style="top:70px;left:83px;animation-duration:3831ms;animation-delay:1970ms;"></div>
+  <div class="star star--medium" style="top:382px;left:746px;animation-duration:3162ms;animation-delay:789ms;"></div>
+  <div class="star" style="top:585px;left:108px;animation-duration:4819ms;animation-delay:583ms;"></div>
+  <div class="star" style="top:630px;left:729px;animation-duration:4636ms;animation-delay:2526ms;"></div>
+  <div class="star" style="top:551px;left:728px;animation-duration:5269ms;animation-delay:479ms;"></div>
+  <div class="star" style="top:122px;left:322px;animation-duration:3119ms;animation-delay:939ms;"></div>
+  <div class="star" style="top:390px;left:738px;animation-duration:4452ms;animation-delay:506ms;"></div>
+  <div class="star star--big" style="top:721px;left:1398px;animation-duration:3861ms;animation-delay:2043ms;"></div>
+  <div class="star" style="top:518px;left:1425px;animation-duration:4806ms;animation-delay:1160ms;"></div>
+  <div class="star" style="top:445px;left:660px;animation-duration:3279ms;animation-delay:308ms;"></div>
+  <div class="star star--medium" style="top:579px;left:641px;animation-duration:4446ms;animation-delay:2387ms;"></div>
+  <div class="star" style="top:544px;left:308px;animation-duration:5237ms;animation-delay:741ms;"></div>
+  <div class="star" style="top:731px;left:737px;animation-duration:3945ms;animation-delay:2308ms;"></div>
+  <div class="star" style="top:407px;left:179px;animation-duration:5263ms;animation-delay:2827ms;"></div>
+  <div class="star" style="top:213px;left:228px;animation-duration:4106ms;animation-delay:2792ms;"></div>
+  <div class="star" style="top:592px;left:1326px;animation-duration:3159ms;animation-delay:2026ms;"></div>
+  <div class="star" style="top:127px;left:1443px;animation-duration:3533ms;animation-delay:1931ms;"></div>
+  <div class="star" style="top:489px;left:370px;animation-duration:3452ms;animation-delay:1779ms;"></div>
+  <div class="star" style="top:112px;left:904px;animation-duration:4900ms;animation-delay:1072ms;"></div>
+  <div class="star star--medium" style="top:286px;left:722px;animation-duration:4485ms;animation-delay:872ms;"></div>
+  <div class="star" style="top:764px;left:582px;animation-duration:4714ms;animation-delay:2000ms;"></div>
+  <div class="star" style="top:751px;left:830px;animation-duration:5787ms;animation-delay:245ms;"></div>
+  <div class="star" style="top:20px;left:143px;animation-duration:3263ms;animation-delay:2919ms;"></div>
+  <div class="star" style="top:697px;left:398px;animation-duration:5330ms;animation-delay:1537ms;"></div>
+  <div class="star" style="top:713px;left:1405px;animation-duration:3825ms;animation-delay:212ms;"></div>
+  <div class="star" style="top:112px;left:518px;animation-duration:4671ms;animation-delay:1791ms;"></div>
+  <div class="star" style="top:25px;left:6px;animation-duration:5984ms;animation-delay:2908ms;"></div>
+  <div class="star star--big" style="top:375px;left:134px;animation-duration:5474ms;animation-delay:2940ms;"></div>
+  <div class="star star--medium" style="top:601px;left:1433px;animation-duration:4053ms;animation-delay:1246ms;"></div>
+  <div class="star" style="top:364px;left:305px;animation-duration:5338ms;animation-delay:1874ms;"></div>
+  <div class="star" style="top:23px;left:1254px;animation-duration:3825ms;animation-delay:520ms;"></div>
+  <div class="star" style="top:724px;left:1414px;animation-duration:4184ms;animation-delay:2532ms;"></div>
+  <div class="star" style="top:775px;left:519px;animation-duration:5376ms;animation-delay:80ms;"></div>
+  <div class="star" style="top:131px;left:724px;animation-duration:3961ms;animation-delay:869ms;"></div>
+  <div class="star" style="top:93px;left:873px;animation-duration:3785ms;animation-delay:1387ms;"></div>
+  <div class="star" style="top:694px;left:1055px;animation-duration:4652ms;animation-delay:443ms;"></div>
+  <div class="star" style="top:720px;left:1074px;animation-duration:5810ms;animation-delay:594ms;"></div>
+  <div class="star star--medium" style="top:344px;left:120px;animation-duration:5038ms;animation-delay:2739ms;"></div>
+  <div class="star" style="top:277px;left:892px;animation-duration:4525ms;animation-delay:347ms;"></div>
+  <div class="star" style="top:282px;left:370px;animation-duration:5600ms;animation-delay:91ms;"></div>
+  <div class="star" style="top:257px;left:618px;animation-duration:4667ms;animation-delay:1997ms;"></div>
+  <div class="star" style="top:526px;left:1047px;animation-duration:3495ms;animation-delay:1458ms;"></div>
+  <div class="star" style="top:197px;left:1240px;animation-duration:5166ms;animation-delay:2146ms;"></div>
+  <div class="star" style="top:564px;left:816px;animation-duration:5522ms;animation-delay:837ms;"></div>
+  <div class="star" style="top:84px;left:1091px;animation-duration:3658ms;animation-delay:739ms;"></div>
+  <div class="star" style="top:540px;left:581px;animation-duration:3288ms;animation-delay:348ms;"></div>
+  <div class="star star--medium" style="top:657px;left:1371px;animation-duration:4907ms;animation-delay:1037ms;"></div>
+  <div class="star star--big" style="top:752px;left:199px;animation-duration:5233ms;animation-delay:1366ms;"></div>
+  <div class="star" style="top:305px;left:1410px;animation-duration:4929ms;animation-delay:1497ms;"></div>
+  <div class="star" style="top:716px;left:70px;animation-duration:3259ms;animation-delay:2712ms;"></div>
+  <div class="star" style="top:323px;left:733px;animation-duration:5648ms;animation-delay:1763ms;"></div>
+  <div class="star" style="top:630px;left:592px;animation-duration:3454ms;animation-delay:1196ms;"></div>
+  <div class="star" style="top:351px;left:834px;animation-duration:5794ms;animation-delay:2062ms;"></div>
+  <div class="star" style="top:254px;left:1272px;animation-duration:3296ms;animation-delay:242ms;"></div>
+  <div class="star" style="top:569px;left:720px;animation-duration:5913ms;animation-delay:1911ms;"></div>
+  <div class="star star--medium" style="top:62px;left:1448px;animation-duration:4826ms;animation-delay:545ms;"></div>
+  <div class="star" style="top:453px;left:1434px;animation-duration:3839ms;animation-delay:2430ms;"></div>
+  <div class="star" style="top:710px;left:1149px;animation-duration:3788ms;animation-delay:130ms;"></div>
+  <div class="star" style="top:597px;left:526px;animation-duration:3282ms;animation-delay:1099ms;"></div>
+  <div class="star" style="top:160px;left:710px;animation-duration:4352ms;animation-delay:1071ms;"></div>
+  <div class="star" style="top:541px;left:1378px;animation-duration:3032ms;animation-delay:716ms;"></div>
+  <div class="star" style="top:204px;left:774px;animation-duration:3567ms;animation-delay:943ms;"></div>
+  <div class="star" style="top:546px;left:515px;animation-duration:3060ms;animation-delay:2478ms;"></div>
+  <div class="star" style="top:50px;left:1111px;animation-duration:3544ms;animation-delay:2098ms;"></div>
+  <div class="star star--medium" style="top:414px;left:419px;animation-duration:3135ms;animation-delay:630ms;"></div>
+  <div class="star" style="top:401px;left:810px;animation-duration:3164ms;animation-delay:1037ms;"></div>
+  <div class="star" style="top:760px;left:987px;animation-duration:5841ms;animation-delay:185ms;"></div>
+  <div class="star star--big" style="top:146px;left:518px;animation-duration:5208ms;animation-delay:943ms;"></div>
+  <div class="star" style="top:566px;left:15px;animation-duration:4607ms;animation-delay:1390ms;"></div>
+  <div class="star" style="top:239px;left:547px;animation-duration:4888ms;animation-delay:22ms;"></div>
+  <div class="star" style="top:362px;left:164px;animation-duration:5206ms;animation-delay:407ms;"></div>
+  <div class="star" style="top:387px;left:1189px;animation-duration:5827ms;animation-delay:417ms;"></div>
+  <div class="star" style="top:724px;left:970px;animation-duration:4482ms;animation-delay:1367ms;"></div>
+  <div class="star star--medium" style="top:638px;left:589px;animation-duration:3580ms;animation-delay:944ms;"></div>
+  <div class="star" style="top:389px;left:1347px;animation-duration:5362ms;animation-delay:1711ms;"></div>
+  <div class="star" style="top:103px;left:1037px;animation-duration:3907ms;animation-delay:977ms;"></div>
+  <div class="star" style="top:560px;left:1112px;animation-duration:3305ms;animation-delay:559ms;"></div>
+  <div class="star" style="top:501px;left:716px;animation-duration:4002ms;animation-delay:1851ms;"></div>
+  <div class="star" style="top:105px;left:56px;animation-duration:4331ms;animation-delay:2483ms;"></div>
+  <div class="star" style="top:504px;left:603px;animation-duration:3864ms;animation-delay:1659ms;"></div>
+  <div class="star" style="top:335px;left:237px;animation-duration:3789ms;animation-delay:987ms;"></div>
+  <div class="star" style="top:726px;left:14px;animation-duration:4245ms;animation-delay:2678ms;"></div>
+  <div class="star star--medium" style="top:64px;left:1112px;animation-duration:3347ms;animation-delay:1752ms;"></div>
+  <div class="star" style="top:26px;left:286px;animation-duration:3316ms;animation-delay:1346ms;"></div>
+  <div class="star" style="top:645px;left:1320px;animation-duration:4279ms;animation-delay:1671ms;"></div>
+  <div class="star" style="top:752px;left:22px;animation-duration:3941ms;animation-delay:1484ms;"></div>
+  <div class="star" style="top:379px;left:1241px;animation-duration:5160ms;animation-delay:1654ms;"></div>
+  <div class="star star--big" style="top:424px;left:1411px;animation-duration:5353ms;animation-delay:611ms;"></div>
+  <div class="star" style="top:643px;left:291px;animation-duration:5643ms;animation-delay:2236ms;"></div>
+  <div class="star" style="top:212px;left:605px;animation-duration:5129ms;animation-delay:615ms;"></div>
+  <div class="star" style="top:18px;left:273px;animation-duration:3199ms;animation-delay:1930ms;"></div>
+  <div class="star star--medium" style="top:45px;left:761px;animation-duration:5585ms;animation-delay:567ms;"></div>
+  <div class="star" style="top:761px;left:383px;animation-duration:5777ms;animation-delay:2435ms;"></div>
+  <div class="star" style="top:168px;left:185px;animation-duration:5315ms;animation-delay:964ms;"></div>
+  <div class="star" style="top:640px;left:577px;animation-duration:3782ms;animation-delay:1699ms;"></div>
+  <div class="star" style="top:484px;left:848px;animation-duration:3245ms;animation-delay:2643ms;"></div>
+  <div class="star" style="top:192px;left:481px;animation-duration:3405ms;animation-delay:1207ms;"></div>
+  <!--对话部分-->
+  <!-- <div class="share_img"><img src="img/xin.png" alt="" /></div>
+    <div class="page_one">
+      <div class="content">
+        <div class="text_wrapper">
+          <img class="xin" src="img/xin.png" alt="" />
+          <div class="text">小姐姐，我好喜欢你，你愿意做我女朋友吗？</div>
+        </div>
+      </div>
+      <div class="btn-groups">
+        <div class="heart-btn">
+          <div id="yes" class="btn btn-a"><span>愿意</span></div>
+        </div>
+        <div id="no" class="btn btn-b"><span>不愿意</span></div>
+      </div>
+    </div> -->
+  <!--烟花部分-->
+  <canvas id="cas" style="background-color: rgba(0, 5, 24, 1); z-index: 9999" width="1482" height="782">
+    浏览器不支持canvas
+  </canvas>
+  <div class="city">
+    <img src="./生日快乐/city.png" alt="">
+  </div>
+  <img src="./生日快乐/moon.png" alt="" id="moon" style="visibility: hidden">
+  <div style="display: none">
+    <div class="shape">蒋学姐!</div>
+    <div class="shape">生日快乐！</div>
+    <div class="shape">天天开心！</div>
+    <div class="shape">万事如意！</div>
+    <div class="shape">💘💘💘</div>
+    <div class="shape">蒋姐！</div>
+  </div>
+  <!--音乐部分/可替换-->
+  <audio autoplay="" loop="" id="music" src="https://domon.top/sds/1.mp3">
+    <source src="https://domon.top/sds/1.mp3">
+  </audio>
+  <iframe id="iframMusic" allow="autoplay" style="display: none" src="./生日快乐/xinnian.html"></iframe>
+  <script src="./生日快乐/jquery.min1.js"></script>
+  <script src="./生日快乐/fire.js"></script>
+  <script src="./生日快乐/talk.js"></script>
+
+
+</body>
+
+</html>
