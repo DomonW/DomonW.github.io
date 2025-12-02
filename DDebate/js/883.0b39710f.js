@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_antd_pro"]=self["webpackChunkvue_antd_pro"]||[]).push([[883],{81883:function(u,e,l){l.r(e);var n,t,a=l(81656),p={},r=(0,a.A)(p,n,t,!1,null,null,null);e["default"]=r.exports}}]);

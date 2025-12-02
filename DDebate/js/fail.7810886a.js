@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_antd_pro"]=self["webpackChunkvue_antd_pro"]||[]).push([[143],{23227:function(n,e,u){u.r(e),u.d(e,{default:function(){return f}});var t=function(){var n=this,e=n._self._c;return e("div",[n._v(" 404 page ")])},r=[],a={name:"404"},l=a,s=u(81656),c=(0,s.A)(l,t,r,!1,null,"17280393",null),f=c.exports}}]);

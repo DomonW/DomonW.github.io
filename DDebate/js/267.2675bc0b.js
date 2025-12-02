@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkvue_antd_pro"]=self["webpackChunkvue_antd_pro"]||[]).push([[267],{91267:function(n,t,u){u.r(t),u.d(t,{default:function(){return c}});var e=function(){var n=this,t=n._self._c;return t("div",{staticClass:"container"},[n._v(" 活动管理 ")])},r=[],l=u(81656),s={},a=(0,l.A)(s,e,r,!1,null,null,null),c=a.exports}}]);
